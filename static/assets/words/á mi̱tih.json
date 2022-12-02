@@ -1,0 +1,21 @@
+{"lexical-unit": "á mi̱ti",
+"id": "á mi̱tih1_cb258e3e-4942-41aa-bac2-057c87c14388",
+"guid": "cb258e3e-4942-41aa-bac2-057c87c14388",
+"variant": "",
+"trait-value": "phrase",
+"usage-type": "",
+"complexrelations": [{
+"complexrelatedword": "mi̱tih",
+"complexrelatedvalue": "Unspecified Complex Form"}],
+"comparerelations": [],
+"audio": [],
+"sense" : [{
+"sense-id": "5f08aaf2-e249-4fea-a3e0-e986426715a7",
+"POS": "Verb",
+"defin": "to be coming from",
+"restrictions": "(I,-)",
+"examples": [],
+"relations": [{
+"relatedword": "mayyah",
+"relatedtype": "Synonyms"}],
+"scientific-name": ""}]}

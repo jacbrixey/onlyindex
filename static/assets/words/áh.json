@@ -1,0 +1,47 @@
+{"lexical-unit": "á",
+"id": "áh2_799601a1-9301-4f1c-9e24-be2616ba930f",
+"guid": "799601a1-9301-4f1c-9e24-be2616ba930f",
+"variant": "",
+"trait-value": "stem",
+"usage-type": "",
+"complexrelations": [],
+"comparerelations": [],
+"audio": ["tákoli.mp3"],
+"sense" : [{
+"sense-id": "3084538f-b2c8-436c-826a-14083c7e534a",
+"POS": "Verb",
+"defin": "to say (something)",
+"restrictions": "(I,-)",
+"examples": [{"choctaw": "Yamma̱ álih.","english": "I said that."}
+,{"choctaw": "Tákoli onahókih, i̱pat oh ilhkólih.","english": "It’s noon, y’all go eat."}],
+"relations": [{
+"relatedword": "áchih",
+"relatedtype": "Synonyms"},
+{
+"relatedword": "makáchih",
+"relatedtype": "Synonyms"},
+{
+"relatedword": "tabókoli",
+"relatedtype": "Whole"},
+{
+"relatedword": "tákoli",
+"relatedtype": "Part"}],
+"scientific-name": ""},{
+"sense-id": "0c7648da-074b-41c2-a708-daf55e825dd0",
+"POS": "Noun",
+"defin": "noon",
+"restrictions": "no restrictions",
+"examples": [{"choctaw": "Tákoli onahókih, i̱pat oh ilhkólih.","english": "It’s noon, y’all go eat."}],
+"relations": [{
+"relatedword": "tabókoli",
+"relatedtype": "Whole"}],
+"scientific-name": ""},{
+"sense-id": "3ea27a29-7fcd-4431-8181-fa743975ba5f",
+"POS": "Noun",
+"defin": "noon",
+"restrictions": "no restrictions",
+"examples": [],
+"relations": [{
+"relatedword": "tákoli",
+"relatedtype": "Part"}],
+"scientific-name": ""}]}

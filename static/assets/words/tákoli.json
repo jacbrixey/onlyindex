@@ -1,0 +1,19 @@
+{"lexical-unit": "tákoli",
+"id": "tákoli_3c01f28b-5a5e-47c3-9844-58153628064c",
+"guid": "3c01f28b-5a5e-47c3-9844-58153628064c",
+"variant": "",
+"trait-value": "stem",
+"usage-type": "",
+"complexrelations": [],
+"comparerelations": [],
+"audio": ["tákoli.mp3"],
+"sense" : [{
+"sense-id": "0c7648da-074b-41c2-a708-daf55e825dd0",
+"POS": "Noun",
+"defin": "noon",
+"restrictions": "no restrictions",
+"examples": [{"choctaw": "Tákoli onahókih, i̱pat oh ilhkólih.","english": "It’s noon, y’all go eat."}],
+"relations": [{
+"relatedword": "tabókoli",
+"relatedtype": "Whole"}],
+"scientific-name": ""}]}

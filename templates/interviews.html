@@ -1,0 +1,328 @@
+
+{% load static %}
+{% load i18n %}
+
+
+
+<style>
+p.ex1 {
+  padding-top: 10%;
+}
+img {
+  width: 100px,
+  height: 100px
+}
+</style>
+
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}MBCI Dictionary{% endblock %}</title>
+
+
+
+</head>
+<body>
+
+
+{% include 'reduced_searchbar.html' %}
+
+
+
+{% block content %}
+
+<div class="main-wrapper">
+    <section class="cta-section theme-bg-light py-5">
+        <div class="container text-center">
+            <h2 class="heading">{% trans "Interviews" %}</h2>
+
+        </div><!--//container-->
+    </section>
+
+
+
+
+    <section class="blog-list px-3 py-5 p-md-5">
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="{% static 'assets/images/person.svg' %}" class="card-img-top rounded-circle shadow" width="200" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Archie Mingo</h5>
+                        <p class="card-text">Description of interview.</p>
+                        <i class="bi bi-clock"></i>X mins.
+                        <i class="bi bi-play-circle-fill"></i><a href="#">Hear interview</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="{% static 'assets/images/person.svg' %}" class="card-img-top rounded-circle shadow" width="200" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Ary Willis</h5>
+                        <p class="card-text">Description of interview.</p>
+                        <i class="bi bi-clock"></i>55 mins.
+                        <i class="bi bi-play-circle-fill"></i><a href="{% url 'willis_interview' %}">Hear interview</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="{% static 'assets/images/person.svg' %}" class="card-img-top rounded-circle shadow" width="200" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Christine Joe</h5>
+                        <p class="card-text">Description of interview.</p>
+                        <i class="bi bi-clock"></i>X mins.
+                        <i class="bi bi-play-circle-fill"></i><a href="#">Hear interview</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="{% static 'assets/images/person.svg' %}" class="card-img-top rounded-circle shadow" width="200" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Claude Joe</h5>
+                        <p class="card-text">Description of interview.</p>
+                        <i class="bi bi-clock"></i>X mins.
+                        <i class="bi bi-play-circle-fill"></i><a href="#">Hear interview</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="{% static 'assets/images/person.svg' %}" class="card-img-top rounded-circle shadow" width="200" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Odie Jim</h5>
+                        <p class="card-text">Sharecropping days.</p>
+                        <i class="bi bi-clock"></i>X mins.
+                        <i class="bi bi-play-circle-fill"></i><a href="#">Hear interview</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="{% static 'assets/images/person.svg' %}" class="card-img-top rounded-circle shadow" width="200" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Neil Wilson</h5>
+                        <p class="card-text">Description of interview.</p>
+                        <i class="bi bi-clock"></i>X mins.
+                        <i class="bi bi-play-circle-fill"></i><a href="#">Hear interview</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="{% static 'assets/images/person.svg' %}" class="card-img-top rounded-circle shadow" width="200" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Rosie Thompson</h5>
+                        <p class="card-text">Description of interview.</p>
+                        <i class="bi bi-clock"></i>X mins.
+                        <i class="bi bi-play-circle-fill"></i><a href="#">Hear interview</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="{% static 'assets/images/person.svg' %}" class="card-img-top rounded-circle shadow" width="200" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Norma Hickman</h5>
+                        <p class="card-text">Description of interview.</p>
+                        <i class="bi bi-clock"></i>X mins.
+                        <i class="bi bi-play-circle-fill"></i><a href="#">Hear interview</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="{% static 'assets/images/person.svg' %}" class="card-img-top rounded-circle shadow" width="200" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Helen Thompson</h5>
+                        <p class="card-text">Description of interview.</p>
+                        <i class="bi bi-clock"></i>X mins.
+                        <i class="bi bi-play-circle-fill"></i><a href="#">Hear interview</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="{% static 'assets/images/person.svg' %}" class="card-img-top rounded-circle shadow" width="200" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Lacie Bell</h5>
+                        <p class="card-text">Description of interview.</p>
+                        <i class="bi bi-clock"></i>X mins.
+                        <i class="bi bi-play-circle-fill"></i><a href="#">Hear interview</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="{% static 'assets/images/person.svg' %}" class="card-img-top rounded-circle shadow" width="200" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Verdie Robinson</h5>
+                        <p class="card-text">Description of interview.</p>
+                        <i class="bi bi-clock"></i>X mins.
+                        <i class="bi bi-play-circle-fill"></i><a href="#">Hear interview</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="{% static 'assets/images/person.svg' %}" class="card-img-top rounded-circle shadow" width="200" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Bessie Frazier, Eleanor Fowler, Mary Mingo</h5>
+                        <p class="card-text">Description of interview.</p>
+                        <i class="bi bi-clock"></i>X mins.
+                        <i class="bi bi-play-circle-fill"></i><a href="#">Hear interview</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="{% static 'assets/images/person.svg' %}" class="card-img-top rounded-circle shadow" width="200" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Elsie Hickman</h5>
+                        <p class="card-text">Description of interview.</p>
+                        <i class="bi bi-clock"></i>X mins.
+                        <i class="bi bi-play-circle-fill"></i><a href="#">Hear interview</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="{% static 'assets/images/person.svg' %}" class="card-img-top rounded-circle shadow" width="200" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Ethel Willis, Wasman Willis</h5>
+                        <p class="card-text">Description of interview.</p>
+                        <i class="bi bi-clock"></i>X mins.
+                        <i class="bi bi-play-circle-fill"></i><a href="#">Hear interview</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="{% static 'assets/images/person.svg' %}" class="card-img-top rounded-circle shadow" width="200" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">George Bell</h5>
+                        <p class="card-text">Description of interview.</p>
+                        <i class="bi bi-clock"></i>X mins.
+                        <i class="bi bi-play-circle-fill"></i><a href="#">Hear interview</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="{% static 'assets/images/person.svg' %}" class="card-img-top rounded-circle shadow" width="200" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Grady John</h5>
+                        <p class="card-text">Description of interview.</p>
+                        <i class="bi bi-clock"></i>X mins.
+                        <i class="bi bi-play-circle-fill"></i><a href="#">Hear interview</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="{% static 'assets/images/person.svg' %}" class="card-img-top rounded-circle shadow" width="200" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Nancy Farmer</h5>
+                        <p class="card-text">Description of interview.</p>
+                        <i class="bi bi-clock"></i>X mins.
+                        <i class="bi bi-play-circle-fill"></i><a href="#">Hear interview</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="{% static 'assets/images/person.svg' %}" class="card-img-top rounded-circle shadow" width="200" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Wincy Bell, George Bell</h5>
+                        <p class="card-text">Description of interview.</p>
+                        <i class="bi bi-clock"></i>X mins.
+                        <i class="bi bi-play-circle-fill"></i><a href="#">Hear interview</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="{% static 'assets/images/person.svg' %}" class="card-img-top rounded-circle shadow" width="200" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Gladys Frazier</h5>
+                        <p class="card-text">Description of interview.</p>
+                        <i class="bi bi-clock"></i>X mins.
+                        <i class="bi bi-play-circle-fill"></i><a href="#">Hear interview</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="{% static 'assets/images/person.svg' %}" class="card-img-top rounded-circle shadow" width="200" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Harry Polk</h5>
+                        <p class="card-text">Personal Narrative of Crafts, old practices</p>
+                        <i class="bi bi-clock"></i>X mins.
+                        <i class="bi bi-play-circle-fill"></i><a href="#">Hear interview</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="{% static 'assets/images/person.svg' %}" class="card-img-top rounded-circle shadow" width="200" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Jimmy Lee Thomas</h5>
+                        <p class="card-text">Gardening - osáp imma</p>
+                        <i class="bi bi-clock"></i>X mins.
+                        <i class="bi bi-play-circle-fill"></i><a href="#">Hear interview</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="{% static 'assets/images/person.svg' %}" class="card-img-top rounded-circle shadow" width="200" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Zula Chitto</h5>
+                        <p class="card-text">Taposhshik.</p>
+                        <i class="bi bi-clock"></i>X mins.
+                        <i class="bi bi-play-circle-fill"></i><a href="#">Hear interview</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+</div>
+
+{% endblock %}
+
+{% include 'bottombar.html' %}
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
+
+
+

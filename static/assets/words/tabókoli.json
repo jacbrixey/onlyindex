@@ -1,0 +1,19 @@
+{"lexical-unit": "tabókoli",
+"id": "tabókoli_730026a9-037e-4961-80ef-2eefe90d124c",
+"guid": "730026a9-037e-4961-80ef-2eefe90d124c",
+"variant": "",
+"trait-value": "stem",
+"usage-type": "",
+"complexrelations": [],
+"comparerelations": [],
+"audio": [],
+"sense" : [{
+"sense-id": "3ea27a29-7fcd-4431-8181-fa743975ba5f",
+"POS": "Noun",
+"defin": "noon",
+"restrictions": "no restrictions",
+"examples": [],
+"relations": [{
+"relatedword": "tákoli",
+"relatedtype": "Part"}],
+"scientific-name": ""}]}

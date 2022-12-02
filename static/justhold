@@ -1,0 +1,94 @@
+<div class="bg-img">
+<div class="container">
+    <br><br>
+    <div class="row">
+        <div class="col align-self-center">
+            <img src="{% static 'assets/images/DCI_CTLP_logo.png' %}" alt="logo" width="200" height="200" style="margin: auto; display: block;">
+        </div>
+    </div>
+    <br>
+    <div class="row justify-content-center">
+        <div class="col">
+            <form class="container" action="word">
+                    <div class="form-group">
+                        <!--<label class="sr-only" for="semail">Search English to Choctaw</label>-->
+                        <input type="text" id="semail" name="word" class="form-control mr-md-1 semail" placeholder="Search Choctaw to English">
+                    </div>
+                                        <button type="submit" class="btn btn-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+</svg>
+
+              </button>
+				</form><br>
+        </div>
+        <div class="col">
+            <form class="container" action="choword">
+                    <div class="form-group">
+                        <!---<label class="sr-only" for="semail">Search Choctaw to English</label>-->
+                        <input type="text" id="semail" name="word" class="form-control mr-md-1 semail" placeholder="Search English to Choctaw">
+                    </div>
+                    <button type="submit" class="btn btn-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+</svg>
+
+              </button>
+				</form><br>
+        </div>
+</div>
+</div>
+</div>
+
+
+
+<!---old code for python lookup in xml
+<div class = "container">
+        <ul>
+            <!---For each result from dictionary lookup, print entry in array (search is done in /search/views.py)--->
+            <!---this for loop works, but does not access all --->
+        {% for index in appendings %}
+            <div class="row">
+                <div class="col">
+                  <b>{{ word }}  </b>
+                </div>
+                <div class = "col">
+                    <li><i> Definition: </i>{{ index }}</li>
+                </div>
+                <div class = "row">
+                    <div class = "col"> <!---this needs to be positions on right underneath definition --->
+                        Example:
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        </ul>
+    </div>
+
+
+
+    <br>
+
+
+        <div class = "container">
+        <ul>
+            <!---For each result from dictionary lookup, print entry in array (search is done in /search/views.py)--->
+            <!---this for loop works, but does not access all -->
+        {% for key, value in results.items %}
+
+
+
+            <div class="row">
+
+                <div class = "col">
+
+                    <li><i> {{ key }} : </i>{{ value }}</li>
+                </div>
+
+
+            </div>
+
+        {% endfor %}
+        </ul>
+        </div>
+<br><br>

@@ -1,0 +1,23 @@
+<!-- templates/base.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+</head>
+<body>
+
+{% include "indexhome/navbar.html" %}
+{% include "indexhome/searchbar.html" %}
+{% include "indexhome/borderbar.html" %}
+<main>
+    {% block content %}
+
+    {% endblock %}
+</main>
+{% include "indexhome/bottombar.html" %}
+</body>
+</html>

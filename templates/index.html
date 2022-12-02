@@ -1,0 +1,81 @@
+
+{% load static %}
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="en"> 
+
+
+<head>
+<meta charset="utf-8" />
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+</head>
+
+<body>
+
+{% include 'searchbar.html' %}
+
+
+
+    <div class="main-wrapper">
+	    <section class="cta-section theme-bg-light py-5">
+		    <div class="container text-center">
+			    <h2 class="heading" style="font-size:48px;">{% trans "MBCI Dictionary" %}</h2>
+				<!--- intro line
+                <div class="intro">Search for translations</div> --->
+				
+                <!--- old placement
+			    <form class="signup-form form-inline justify-content-center pt-3" action="word">
+                    <div class="form-group">
+                        <label class="sr-only" for="semail">Enter Your Word</label>
+                        <input type="text" id="semail" name="word" class="form-control mr-md-1 semail" placeholder="Enter Your Word">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Search</button>
+				</form>
+				--->
+
+		    </div><!--//container-->
+	    </section>
+
+	    <section class="blog-list px-3 py-5 p-md-5">
+		    <div class="container">
+
+                <p style="font-size:24px;">
+                {% trans "This website is an online learning tool designed to support Choctaw language education." %}
+                    {% trans "Its primary function is translating words, sentences, and phrases in English and Choctaw." %}
+                    {% trans "Each Choctaw entry includes an audio clip of a Choctaw speaker saying the item." %}
+                    {% trans "In addition to over 5,000 words in the dictionary, the site also includes stories, usage examples, photos, and historical examples." %}
+                    {% trans "The Choctaw Talking Dictionary is the ultimate resource for learning Choctaw, the Native American language of the Mississippi Band of Choctaw Indians." %}
+
+
+                <!--This website is an online learning tool designed to support Choctaw language education through its expansive
+                dictionary and language lessons. Its primary function is translating words, sentences, and phrases from English to Choctaw
+                or vice versa. Each Choctaw item in the search results includes an audio clip of a speaker of Choctaw saying the item.
+                In addition to over 5,000 words in the dictionary, the site also includes stories, usage examples, photos, and historical examples.
+                The Choctaw Talking Dictionary is the ultimate resource for learning Choctaw, the Native American language of the Mississippi Band of Choctaw Indians.-->
+                </p>
+		    </div>
+	    </section>
+	    <br><br>
+
+    
+    </div><!--//main-wrapper-->
+    
+    
+    
+    
+
+
+    
+       
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+{% include 'bottombar.html' %}
+
+</body>
+</html> 

@@ -1,0 +1,20 @@
+{"lexical-unit": "pisachokma",
+"id": "pisachokmah_0c06f5a9-267c-4a53-8939-1ba71f063b7b",
+"guid": "0c06f5a9-267c-4a53-8939-1ba71f063b7b",
+"variant": "",
+"trait-value": "stem",
+"usage-type": "",
+"complexrelations": [],
+"comparerelations": [],
+"audio": [],
+"sense" : [{
+"sense-id": "49e46066-dd01-45f7-8ada-34cef86a4829",
+"POS": "Verb",
+"defin": "to be pretty, good-looking ",
+"restrictions": "(II)",
+"examples": [{"choctaw": "Ná paka̱li mat pisachokmah.","english": "That flower is pretty."}
+,{"choctaw": "Pisa chi achokmah.","english": "You are good looking."}],
+"relations": [{
+"relatedword": "pisa ayo̱ba kiyoh",
+"relatedtype": "Antonym"}],
+"scientific-name": ""}]}

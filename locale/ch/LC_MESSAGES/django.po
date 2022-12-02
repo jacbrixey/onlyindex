@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-27 03:42+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mbci_website/settings.py:23
+msgid "Chahta"
+msgstr ""
+
+#: mbci_website/settings.py:24
+msgid "English"
+msgstr ""
+
+#: templates/az_browse.html:45
+msgid "Browse by Letter"
+msgstr "Browse by Letter"
+
+#: templates/bottombar.html:28
+msgid "Contact"
+msgstr "Pa̱yah"
+
+#: templates/fair_vocab.html:27 templates/navbar.html:92
+msgid "Choctaw Fair Words"
+msgstr "Chahta Áyopisa Chito Anno̱pa"
+
+#: templates/fair_vocab.html:48
+msgid "Words related to Choctaw Fair"
+msgstr " Chahta Áyopisa Chito Anno̱pa "
+
+#: templates/index.html:22
+msgid "MBCI Dictionary"
+msgstr "MBCI Tikshaníli"
+
+#: templates/index.html:43
+msgid ""
+"This website is an online learning tool designed to support Choctaw language "
+"education."
+msgstr "TO TRANSLATE: This website is an online learning tool designed to support Choctaw language "
+"education."
+
+#: templates/index.html:44
+msgid ""
+"Its primary function is translating words, sentences, and phrase in English "
+"and Choctaw."
+msgstr "Its primary function is translating words, sentences, and phrase in English "
+"and Choctaw."
+
+#: templates/index.html:45
+msgid ""
+"Each Choctaw entry includes an audio clip of a Choctaw speaker saying the "
+"item."
+msgstr "Each Choctaw entry includes an audio clip of a Choctaw speaker saying the "
+"item."
+
+#: templates/index.html:46
+msgid ""
+"In addition to over 5,000 words in the dictionary, the site also includes "
+"stories, usage examples, photos, and historical examples."
+msgstr "In addition to over 5,000 words in the dictionary, the site also includes "
+"stories, usage examples, photos, and historical examples."
+
+#: templates/index.html:47
+msgid ""
+"The Choctaw Talking Dictionary is the ultimate resource for learning "
+"Choctaw, the Native American language of the Mississippi Band of Choctaw "
+"Indians."
+msgstr "The Choctaw Talking Dictionary is the ultimate resource for learning "
+"Choctaw, the Native American language of the Mississippi Band of Choctaw "
+"Indians."
+
+#: templates/interviews.html:27 templates/navbar.html:103
+msgid "Interviews"
+msgstr "Ittimano̱poli"
+
+#: templates/interviews.html:48
+#, fuzzy
+#| msgid "Interviews"
+msgid "Interviews, coming soon"
+msgstr "Ittimanópoli"
+
+#: templates/navbar.html:77
+msgid "Home"
+msgstr "Áhikít Iya"
+
+#: templates/navbar.html:80 templates/started.html:27
+msgid "Getting Started"
+msgstr "Hikít iyah"
+
+#: templates/navbar.html:85
+msgid "Browse in Dictionary"
+msgstr "Tikshaníli Áhoyo"
+
+#: templates/navbar.html:88
+msgid "Health Words"
+msgstr "Health anompa"
+
+#: templates/navbar.html:89
+msgid "Education Words"
+msgstr "Education anompa"
+
+#: templates/navbar.html:90
+msgid "Government Words"
+msgstr "Government anompa"
+
+#: templates/navbar.html:91
+msgid "Holiday Words"
+msgstr "Holiday anompa"
+
+#: templates/navbar.html:94
+msgid "Browse by letter"
+msgstr "Browse by letter"
+
+#: templates/navbar.html:96
+msgid "Random word"
+msgstr "Random word"
+
+#: templates/navbar.html:100
+msgid "Stories"
+msgstr "Ná anóli"
+
+#: templates/navbar.html:109
+msgid "Languages"
+msgstr "Ná anno̱pa alhíha"
+
+#: templates/randomword.html:22
+msgid "Random Word"
+msgstr "Anompa random"
+
+#: templates/randomword.html:24
+msgid "Click refresh on the browser to get another random word!"
+msgstr "Click refresh on the browser to get another random word!"
+
+#: templates/reduced_searchbar.html:97
+msgid "Accents"
+msgstr "Lha̱fa"
+
+#: templates/started.html:48
+#, fuzzy
+#| msgid "How to use this webpage"
+msgid "How to use webpage and dictionary"
+msgstr "How to"
+
+#: templates/story.html:29
+msgid "Texts"
+msgstr "Texts"
+
+#: templates/story.html:50
+#, fuzzy
+#| msgid "Stories and texts"
+msgid "Stories and texts, coming soon"
+msgstr "Stories and texts"
+
+#: templates/verbconjugate.html:27
+msgid "Verb Conjugator"
+msgstr "Verb conjugator"
+
+#, fuzzy
+#~| msgid "AY Browse"
+#~ msgid "AZ Browse"
+#~ msgstr "A-Y Áhoyo"
+
+#~ msgid "Markers"
+#~ msgstr "Lha̱fa"
+
+#, fuzzy
+#~| msgid "MBCI Dictionary"
+#~ msgid "Tikshaníli hóyo"
+#~ msgstr "Tikshaníli hóyo"
+
+#, fuzzy
+#~| msgid "Interviews"
+#~ msgid "Only interviews"
+#~ msgstr "Only interviews"
+
+#~ msgid "Here is one random word"
+#~ msgstr "Here is one random word"
+
+#~ msgid "Vintage Words"
+#~ msgstr "Vintage anompa"

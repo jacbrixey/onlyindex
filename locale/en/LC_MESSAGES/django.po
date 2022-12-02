@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-27 03:42+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: mbci_website/settings.py:23
+msgid "Chahta"
+msgstr ""
+
+#: mbci_website/settings.py:24
+msgid "English"
+msgstr ""
+
+#: templates/az_browse.html:45
+msgid "Browse by Letter"
+msgstr ""
+
+#: templates/bottombar.html:28
+msgid "Contact"
+msgstr ""
+
+#: templates/fair_vocab.html:27 templates/navbar.html:92
+msgid "Choctaw Fair Words"
+msgstr ""
+
+#: templates/fair_vocab.html:48
+msgid "Words related to Choctaw Fair"
+msgstr ""
+
+#: templates/index.html:22
+msgid "MBCI Dictionary"
+msgstr ""
+
+#: templates/index.html:43
+msgid ""
+"This website is an online learning tool designed to support Choctaw language "
+"education."
+msgstr ""
+
+#: templates/index.html:44
+msgid ""
+"Its primary function is translating words, sentences, and phrase in English "
+"and Choctaw."
+msgstr ""
+
+#: templates/index.html:45
+msgid ""
+"Each Choctaw entry includes an audio clip of a Choctaw speaker saying the "
+"item."
+msgstr ""
+
+#: templates/index.html:46
+msgid ""
+"In addition to over 5,000 words in the dictionary, the site also includes "
+"stories, usage examples, photos, and historical examples."
+msgstr ""
+
+#: templates/index.html:47
+msgid ""
+"The Choctaw Talking Dictionary is the ultimate resource for learning "
+"Choctaw, the Native American language of the Mississippi Band of Choctaw "
+"Indians."
+msgstr ""
+
+#: templates/interviews.html:27 templates/navbar.html:103
+msgid "Interviews"
+msgstr ""
+
+#: templates/interviews.html:48
+msgid "Interviews, coming soon"
+msgstr ""
+
+#: templates/navbar.html:77
+msgid "Home"
+msgstr ""
+
+#: templates/navbar.html:80 templates/started.html:27
+msgid "Getting Started"
+msgstr ""
+
+#: templates/navbar.html:85
+msgid "Browse in Dictionary"
+msgstr ""
+
+#: templates/navbar.html:88
+msgid "Health Words"
+msgstr ""
+
+#: templates/navbar.html:89
+msgid "Education Words"
+msgstr ""
+
+#: templates/navbar.html:90
+msgid "Government Words"
+msgstr ""
+
+#: templates/navbar.html:91
+msgid "Holiday Words"
+msgstr ""
+
+#: templates/navbar.html:94
+msgid "Browse by letter"
+msgstr ""
+
+#: templates/navbar.html:96
+msgid "Random word"
+msgstr ""
+
+#: templates/navbar.html:100
+msgid "Stories"
+msgstr ""
+
+#: templates/navbar.html:109
+msgid "Languages"
+msgstr ""
+
+#: templates/randomword.html:22
+msgid "Random Word"
+msgstr ""
+
+#: templates/randomword.html:24
+msgid "Click refresh on the browser to get another random word!"
+msgstr ""
+
+#: templates/reduced_searchbar.html:97
+msgid "Accents"
+msgstr ""
+
+#: templates/started.html:48
+msgid "How to use webpage and dictionary"
+msgstr ""
+
+#: templates/story.html:29
+msgid "Texts"
+msgstr ""
+
+#: templates/story.html:50
+msgid "Stories and texts, coming soon"
+msgstr ""
+
+#: templates/verbconjugate.html:27
+msgid "Verb Conjugator"
+msgstr ""
