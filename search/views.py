@@ -176,17 +176,13 @@ def birds(request):
 def colors(request):
     return render(request, 'categories/colors.html')
 
-def ear(request):
-    return render(request, 'categories/ear.html')
+def body(request):
+    return render(request, 'categories/body.html')
 
-def eye(request):
-    return render(request, 'categories/eye.html')
 
 def food(request):
     return render(request, 'categories/food.html')
 
-def head(request):
-    return render(request, 'categories/head.html')
 
 def insects(request):
     return render(request, 'categories/insects.html')
@@ -196,12 +192,6 @@ def kinship(request):
 
 def months(request):
     return render(request, 'categories/months.html')
-
-def mouth(request):
-    return render(request, 'categories/mouth.html')
-
-def nose(request):
-    return render(request, 'categories/nose.html')
 
 def numbers(request):
     return render(request, 'categories/numbers.html')
@@ -218,8 +208,6 @@ def shapes(request):
 def snakes(request):
     return render(request, 'categories/snakes.html')
 
-def tooth(request):
-    return render(request, 'categories/tooth.html')
 
 def trees(request):
     return render(request, 'categories/trees.html')

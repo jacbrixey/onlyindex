@@ -8,10 +8,7 @@
 p.ex1 {
   padding-top: 10%;
 }
-img {
-  width: 100px,
-  height: 100px
-}
+
 </style>
 
 
@@ -41,23 +38,130 @@ img {
     </section>
 
 
+     <section class="blog-list px-3 py-5 p-md-5">
+        <div class="row row-cols-1 row-cols-md-4">
+            <div class="col mb-4">
+                <div class="card text-center">
+                    <img src="{% static 'assets/images/category/bird2.png' %}" class="card-img-top" width="75%" height="65%">
+
+                        <div class="card-body">
+                        <h5 class="card-title center"><a href="{% url 'birds' %}">Birds</a></h5>
+                    </div>
+                </div>
+            </div>
+                       <div class="col mb-4">
+                <div class="card text-center">
+                    <img src="{% static 'assets/images/category/body.png' %}" class="card-img-top" width="75%" height="2%">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="{% url 'body' %}">Body parts</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card text-center">
+                    <img src="{% static 'assets/images/category/color.png' %}" class="card-img-top" width="75%" height="100%">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="{% url 'colors' %}">Colors</a></h5>
+                        </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card text-center">
+                    <img src="{% static 'assets/images/category/food.png' %}" class="card-img-top" width="75%" height="55%">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="{% url 'food' %}">Food</a></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-4">
+
+            <div class="col mb-4">
+                <div class="card text-center">
+                    <img src="{% static 'assets/images/category/insect.png' %}" class="card-img-top" width="75%" height="65%">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="{% url 'insects' %}">Insects</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card text-center">
+                    <img src="{% static 'assets/images/category/kin.png' %}" class="card-img-top" width="75%" height="65%">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="{% url 'kinship' %}">Kinship</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card text-center">
+                    <img src="{% static 'assets/images/category/month.png' %}" class="card-img-top" width="75%" height="105%">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="{% url 'months' %}">Months</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card text-center">
+                    <img src="{% static 'assets/images/category/number.png' %}" class="card-img-top" width="75%" height="45%">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="{% url 'numbers' %}">Numbers</a></h5>
+                        </div>
+                </div>
+            </div>
+        </div>
+            <!--<div class="col mb-4">-->
+                <!--<div class="card">-->
+                    <!--<img src="{% static 'assets/images/person.svg' %}" class="card-img-top rounded-circle shadow" width="200" height="200">-->
+                    <!--<div class="card-body">-->
+                        <!--<h5 class="card-title"><a href="{% url 'occurrences' %}">Number of times</a></h5>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+
+        <div class="row row-cols-1 row-cols-md-4">
+            <div class="col mb-4">
+                <div class="card text-center">
+                    <img src="{% static 'assets/images/category/religion.png' %}" class="card-img-top" width="75%" height="55%">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="{% url 'religion' %}">Religion</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card text-center">
+                    <img src="{% static 'assets/images/category/shapes.png' %}" class="card-img-top" width="75%" height="65%">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="{% url 'shapes' %}">Shapes</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card text-center">
+                    <img src="{% static 'assets/images/category/snake.png' %}" class="card-img-top" width="75%" height="65%">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="{% url 'snakes' %}">Snakes</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card text-center">
+                    <img src="{% static 'assets/images/category/tree.png' %}" class="card-img-top" width="75%" height="65%">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="{% url 'trees' %}">Trees</a></h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+     </section>
 
 
-    <section class="blog-list px-3 py-5 p-md-5">
+<!--    <section class="blog-list px-3 py-5 p-md-5">
         <ul>
             <li><a href="{% url 'fair_vocab' %}">Fair vocab</a></li>
             <li><a href="{% url 'birds' %}">Birds</a></li>
             <li><a href="{% url 'colors' %}">Colors</a></li>
-
-            <li>Body parts</li>
-            <ul>
-                <li><a href="{% url 'ear' %}">Ear</a></li>
-                <li><a href="{% url 'eye' %}">Eye</a></li>
-                <li><a href="{% url 'head' %}">Head</a></li>
-                <li><a href="{% url 'mouth' %}">Mouth</a></li>
-                <li><a href="{% url 'tooth' %}">Tooth</a></li>
-                <li><a href="{% url 'nose' %}">Nose</a></li>
-            </ul>
+            <li><a href="{% url 'body' %}">Body parts</a></li>
             <li><a href="{% url 'food' %}">Food</a></li>
             <li><a href="{% url 'insects' %}">Insects</a></li>
             <li><a href="{% url 'kinship' %}">Kinship</a></li>
@@ -69,9 +173,7 @@ img {
             <li><a href="{% url 'snakes' %}">Snakes</a></li>
             <li><a href="{% url 'trees' %}">Trees</a></li>
         </ul>
-
-
-    </section>
+    </section>-->
 </div>
 
 {% endblock %}
